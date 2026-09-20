@@ -1,0 +1,24 @@
+# DentalOS Clinic Knowledge — Governance Policy
+# Multi-tenant: each clinic owns its knowledge/<slug>/ subtree.
+# `public` is implicit (patient-facing FAQ). Register restricted audiences here.
+version: "0.1"
+
+audiences:
+  staff:
+    description: Internal clinic staff procedures (refund exceptions, escalation rules)
+
+approval_authorities:
+  # Platform admin can approve across all tenants.
+  - actors: [human:platform-admin]
+  # Smile Care Karachi — clinic admin approves their own subtree.
+  - actors: [human:smile-care-admin]
+    scope:
+      paths: ["smile-care-karachi"]
+  # Add new clinic admins here following the same pattern:
+  # - actors: [human:<clinic-slug>-admin]
+  #   scope:
+  #     paths: ["<clinic-slug>"]
+
+takedown_authorities:
+  # Platform admin can take down any document across all tenants.
+  actors: [human:platform-admin, human:smile-care-admin]

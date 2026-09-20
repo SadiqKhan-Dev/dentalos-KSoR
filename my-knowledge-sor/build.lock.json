@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "build_id": "sha256:8698c043d3863e93b52ed36f8c983c7042870c9680f285319e43d31b9bce35e9",
+  "ksor_version": "0.0.60",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
+    "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+  },
+  "source_commit": null,
+  "dirty": true,
+  "as_of": "2026-09-20T18:34:52.721Z",
+  "drafts": "hidden",
+  "instance_sha256": "ae96c070644b93dd81878be619cc6bec00d2597ee13b2288a34a6d157b5f3323",
+  "policy_sha256": "382b30ccddb6485f774fca0874d6406c0ea52ec760e4d3d2ef96f7fbf24893b7",
+  "people_sha256": "137155c8f5b8b017c83a6a9b3f2172cc8465b3a1d46f0b79ab091dacaf7a45c5",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_entries": [],
+  "audiences": {
+    "registry": [
+      "staff"
+    ],
+    "viewers": {
+      "public": [
+        "public"
+      ],
+      "staff": [
+        "public",
+        "staff"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "path": "smile-care-karachi/booking-policy.md",
+      "sha256": "0d38e50385dc6c7941fe47a48e53fbcf8776d6ddfdc4b3014707bed773dc5d6e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public",
+        "staff"
+      ]
+    },
+    {
+      "path": "smile-care-karachi/faq-general.md",
+      "sha256": "fefc7c650ff3421a956ccd93d6a4d1ea8451ef22e75006db28067254e36724e6",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public",
+        "staff"
+      ]
+    },
+    {
+      "path": "smile-care-karachi/faq-procedures.md",
+      "sha256": "8ee4aa3e5ed075fca143c9b70b79a4a8a2a7113724001864374b0392ec760896",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public",
+        "staff"
+      ]
+    },
+    {
+      "path": "smile-care-karachi/recall-reminders.md",
+      "sha256": "528d486354cd4a44c4737cfc96eac461a6c1a66afea94864cc2295a6b0b1b623",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public",
+        "staff"
+      ]
+    },
+    {
+      "path": "smile-care-karachi/refund-and-rescheduling.md",
+      "sha256": "3e47b993e67dff29a7df7afc1a7214e3522a66afc1c53a9e8dbde7c3a8dc5d93",
+      "status": "stable",
+      "audience": [
+        "staff"
+      ],
+      "admitted": [
+        "staff"
+      ]
+    }
+  ],
+  "companions": [],
+  "assets": [],
+  "indexes": [
+    {
+      "path": "index.md",
+      "sha256": "5aa63b52b303b952d51893f0161722034b51b196a06b8bfd3674c31bd77bb9b4"
+    },
+    {
+      "path": "smile-care-karachi/index.md",
+      "sha256": "50684f0d2fdb6acb5c6240a391c1de518e116f9186512e225f50b542472a65a3"
+    }
+  ],
+  "bundles": [
+    {
+      "viewer": "public",
+      "sha256": "a8cd82a1f35d72197bec972177cec0262bf4045b73259548c88fa6bfa13818f9",
+      "files": 6
+    },
+    {
+      "viewer": "staff",
+      "sha256": "4752e5af1081df75b6c6cff12a65250efbf02d1b6ede128f5a43e264ab67269c",
+      "files": 7
+    }
+  ]
+}
