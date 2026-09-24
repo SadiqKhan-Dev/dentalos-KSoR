@@ -637,4 +637,14 @@ npx ksor calibrate --instance instance.md  # Calibrate abstention floor
 
 ## License
 
-Private — DentalOS Clinic Knowledge System
+Original application source code, tests, configuration examples, project
+documentation, and release scripts are licensed under the MIT License. See
+[`LICENSE`](LICENSE) for the grant and [`NOTICE`](NOTICE) for excluded content
+and third-party terms.
+
+The MIT grant does not cover real clinic records under
+`my-knowledge-sor/knowledge/`, secrets or generated runtime data, trademarks,
+third-party dependencies, or hosted-service terms. Keep private clinic content
+and production credentials outside any public release. The `"private": true`
+npm flag remains in package manifests to prevent accidental publication; it is
+not a source-code license restriction.

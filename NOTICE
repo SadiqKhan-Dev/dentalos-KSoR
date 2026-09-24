@@ -1,0 +1,70 @@
+DentalOS Knowledge System of Record
+Copyright (c) 2026 DentalOS project contributors
+
+The original application source code, tests, configuration examples, project
+documentation, and release scripts in this repository are licensed under the
+MIT License in LICENSE.
+
+Release scope
+-------------
+
+The MIT grant does not cover or authorize redistribution of:
+
+- my-knowledge-sor/knowledge/ and any real clinic policies, FAQs, procedures,
+  pricing, contact details, medical claims, staff instructions, or other
+  tenant data;
+- secrets, credentials, environment files, logs, database data, backups, or
+  generated build and staging output;
+- names, logos, branding, or other trademarks, including DentalOS, Smile Care
+  Karachi, KSoR, Panaversity, and clinic identities;
+- third-party source code, package contents, fonts, images, or other material
+  that is not original to this project; or
+- hosted services and APIs. Their current terms, privacy requirements, and
+  eligibility rules are separate from this source-code license.
+
+Do not publish the excluded content until the relevant owner, privacy,
+medical-content, and legal reviews are complete. A document marked for a
+private audience is not protected by frontmatter when the repository is
+cloned.
+
+Third-party components
+----------------------
+
+The repository contains or depends on the following separately licensed
+components. Their terms remain in force and must be preserved when their
+material is redistributed.
+
+- @panaversity/ksor 0.0.60 is Apache-2.0 licensed. Retain the upstream
+  LICENSE and NOTICE files when redistributing the runtime or a container
+  that includes it.
+- Files emitted by the KSoR scaffold are covered by the upstream MIT-0
+  scaffold grant described in the KSoR template. The preserved grant text is
+  in my-knowledge-sor/system/site/LICENSE-MIT-0; it records the scaffold grant
+  and does not replace the root MIT grant for original modifications. Existing
+  generated checker notices for YAML (ISC) and Zod (MIT) remain in their
+  source files.
+- shadcn/ui components are MIT licensed. Their upstream provenance and any
+  applicable notices must remain intact.
+- The tracked npm lockfile currently contains 430 entries with declared
+  license metadata: MIT (369), Apache-2.0 (20), MPL-2.0 (12),
+  LGPL-3.0-or-later (10), ISC (10), BSD-3-Clause (2), combined Apache/LGPL
+  expressions (4), CC-BY-4.0 (1), 0BSD (1), and BSD-2-Clause (1). Review the
+  complete package-lock.json before producing a source, application, or
+  container release.
+- Native sharp/libvips packages include combined Apache-2.0 and
+  LGPL-3.0-or-later terms and bundle additional components with their own
+  notices. Preserve those notices and review LGPL, MPL, and patent obligations
+  before shipping a binary or container image.
+- Python dependencies are declared in dentalos-agent/pyproject.toml. The
+  direct dependency set includes FastAPI, google-genai, Uvicorn, HTTPX,
+  Pydantic, and pydantic-settings under their respective upstream licenses.
+  The project currently has no Python lockfile; generate and review an exact
+  dependency manifest before redistribution.
+- Vercel, Clerk, Google Gemini, Neon, PostgreSQL/pgvector, and other hosted
+  or external services are not licensed by this repository. Their service
+  terms and data-processing requirements apply independently.
+
+The package manifests retain "private": true where present. That npm safety
+flag prevents accidental publication; it is not a restriction on the MIT grant
+for the original source code. License fields describe the project package and
+do not convert third-party components or excluded content.

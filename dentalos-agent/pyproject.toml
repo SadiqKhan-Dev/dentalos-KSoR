@@ -1,6 +1,7 @@
 [project]
 name = "dentalos-agent"
 version = "0.1.0"
+license = "MIT"
 description = "DentalOS FastAPI agent with KSoR knowledge integration"
 requires-python = ">=3.11"
 dependencies = [
